@@ -5,7 +5,7 @@ import asyncio
 from dotenv import load_dotenv
 import datetime
 load_dotenv()
-TOKEN = os.getenv("token")
+TOKEN = MTE2NjgwNjMyNDA4NTAxODY0NA.GcjLzg.XqEQSun0nCUR6Qz9RPqB0-VRQvGrUDVyIbAAAU
 intents = discord.Intents().all()
 bot = commands.Bot(command_prefix=">", case_sensitive=False, intents=intents)
 bot.remove_command("help")
